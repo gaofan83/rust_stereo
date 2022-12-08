@@ -7,32 +7,41 @@
 ### Installation
 1) Download the latest version from https://github.com/gaofan83/rust_stereo/releases
 ```
-wget https://github.com/gaofan83/rust_stereo/releases/download/v1.1.0/scATAK_v1.1.0.tar.gz
-tar -xvzf scATAK_v1.1.0.tar.gz
-chmod +x scATAK/scATAK
+wget https://github.com/gaofan83/rust_stereo/releases/download/rust_stereo_v1.0/rust_stereo
 ```
-
-2) Add `export SCATAK_HOME=/PATH_TO_scATAK/` to `.bashrc` file, and then `source .bashrc`.  
 
 ### USAGE
 ```
-$SCATAK_HOME/scATAK -h
+Software Name: stereo-seq tool 1.0
+
+Author: Fan Gao, Caltech Bioinformatics Resource Center, <gaofan9503@gmail.com>
+
+Description: This software processes stereo-seq quantification gem.gz data and generate PNG format images with each nanoball colored by the annotated cell types.
+
+Command: rust_stereo --in input.tissue.gem.gz --marker marker_genes.csv --radius 100
+
+USAGE:
+    rust_stereo [OPTIONS]
+
+FLAGS:
+    -h, --help       Prints help information
+    -V, --version    Prints version information
+
+OPTIONS:
+        --in <gemin>             Please input gem.gz file
+        --marker <markerin>      cell type marker gene list
+        --radius <radius_bin>    radius distance (bin) for neighbour selection
 
 ######################################################################################
-
-scATAK [options]
--module=quant [please choose 'quant' for single-cell quantification, 'track' for group bigwig track generation, 'hic' for HiC related analysis]
-Please specify the following options:
--id --sample_id=sample_sheet.csv [a sample information sheet for fastq files, must be csv format]
--genome --genome_fasta=Mus_musculus.GRCm38.dna_rm.primary_assembly.fa [ENSEMBL genome fasta file for the organism of your interest]
--gene --gene_gtf=Mus_musculus.GRCm38.101.chr.gtf [ENSEMBL gene gtf file for the organism of your interest]
--bc --blen=16 [length of cell barcode, default:16]
--bf --flen=40 [length of biological feature, should not be longer than R2 read length, default:40]
--bg --bc_group=bc_group.txt [a two-column text file with Barcode and Group. First line should be 'Barcode' and 'Group'] (for -module=track or -module=hic
--bam --bam_file=peak_calling/sampleX.bam [scATAK quant mapped bam file for sampleX] (for -module=track only)
--hic --hic_bedpe=sample_significant.bedpe [hic interaction bedpe file] (for -module=hic only)
--bin --hic_binsize=10000 [hic interaction bin size, default 10kb] (for -module=hic only)
--mtxdir --region_mtxdir=atac_regions/atac_sampleX [atac region matrix directory for sampleX] (for -module=hic only)
--t --thread=8 [threads to use, default:8]
--h --help [Help information]
 ```
+
+#### Demo run
+#### 1) Download adult mouse brain Stereo-seq gem data file from STOMICS Database 
+`wget https://ftp.cngb.org/pub/SciRAID/stomics/STDS0000058/Bin1_matrix/Mouse_brain_Adult_GEM_bin1.tsv.gz`
+Note: the latest Stereo-seq gem file format is ***.gem.gz
+#####
+#### 2) Run the following command line to quantify guide feature counts
+```
+./rust_stereo --in Mouse_brain_Adult_GEM_bin1.tsv.gz --marker marker_genes_5XFAD.csv --radius 100
+```
+#####
