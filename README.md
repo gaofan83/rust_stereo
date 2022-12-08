@@ -34,9 +34,9 @@ OPTIONS:
 `wget https://ftp.cngb.org/pub/SciRAID/stomics/STDS0000058/Bin1_matrix/Mouse_brain_Adult_GEM_bin1.tsv.gz`
 ##### Note: the latest Stereo-seq gem file has a different file extension that ends in gem.gz
 #####
-#### 2) Download marker_genes_5XFAD.csv from this repo
+#### 2) Download marker_genes_5XFAD.csv from this repo https://github.com/gaofan83/rust_stereo/
 #####
-#### 2) Run the following command line to creat cell-type-specific image files and return statistics results
+#### 2) Run the following command to generate cell-type-specific image files and return statistics results
 ```
 ./rust_stereo --in Mouse_brain_Adult_GEM_bin1.tsv.gz --marker marker_genes_5XFAD.csv --radius 100
 ```
