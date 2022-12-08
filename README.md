@@ -1,7 +1,7 @@
 [![GitHub Downloads](https://img.shields.io/github/downloads/gaofan83/rust_stereo/total.svg?style=social&logo=github&label=Download)](https://github.com/gaofan83/rust_stereo/releases)
 
 
-### rust_stereo: a Stereo-seq data processing pipeline.
+### rust_stereo: a Stereo-seq data processing pipeline to convert gene matrix data to cell-type-specific image results
 #####
 #####
 ### Installation
@@ -12,12 +12,6 @@ wget https://github.com/gaofan83/rust_stereo/releases/download/rust_stereo_v1.0/
 
 ### USAGE
 ```
-Software Name: stereo-seq tool 1.0
-
-Author: Fan Gao, Caltech Bioinformatics Resource Center, <gaofan9503@gmail.com>
-
-Description: This software processes stereo-seq quantification gem.gz data and generate PNG format images with each nanoball colored by the annotated cell types.
-
 Command: rust_stereo --in input.tissue.gem.gz --marker marker_genes.csv --radius 100
 
 USAGE:
