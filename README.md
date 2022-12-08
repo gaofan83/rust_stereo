@@ -1,7 +1,7 @@
 [![GitHub Downloads](https://img.shields.io/github/downloads/gaofan83/rust_stereo/total.svg?style=social&logo=github&label=Download)](https://github.com/gaofan83/rust_stereo/releases)
 
 
-### rust_stereo: a Stereo-seq data processing pipeline to convert gene matrix data to cell-type-specific image results
+### rust_stereo: a data processing pipeline to generate spatial images (24000x24000 RGB format) from Stereo-seq nanoball gene matrix data
 #####
 #####
 ### Installation
