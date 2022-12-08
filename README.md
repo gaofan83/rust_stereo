@@ -38,7 +38,7 @@ OPTIONS:
 #### Demo run
 #### 1) Download adult mouse brain Stereo-seq gem data file from STOMICS Database 
 `wget https://ftp.cngb.org/pub/SciRAID/stomics/STDS0000058/Bin1_matrix/Mouse_brain_Adult_GEM_bin1.tsv.gz`
-Note: the latest Stereo-seq gem file format is ***.gem.gz
+##### Note: the latest Stereo-seq gem file format is ***.gem.gz
 #####
 #### 2) Run the following command line to quantify guide feature counts
 ```
