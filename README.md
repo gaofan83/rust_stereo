@@ -40,7 +40,7 @@ OPTIONS:
 `wget https://ftp.cngb.org/pub/SciRAID/stomics/STDS0000058/Bin1_matrix/Mouse_brain_Adult_GEM_bin1.tsv.gz`
 ##### Note: the latest Stereo-seq gem file format is ***.gem.gz
 #####
-#### 2) Run the following command line to quantify guide feature counts
+#### 2) Run the following command line to creat cell-type-specific image files and return statistics results
 ```
 ./rust_stereo --in Mouse_brain_Adult_GEM_bin1.tsv.gz --marker marker_genes_5XFAD.csv --radius 100
 ```
