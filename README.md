@@ -46,7 +46,7 @@ Gad2,iNEU1,
 ```
 #####
 ### Output files
-* xxx_celltypes_CELLTYPE1_UMI_full.png Celltype annotated nanoball RGB images
+* xxx_celltypes_CELLTYPE1_UMI_full.png (Celltype annotated nanoball RGB images)
 * xxx_cell_counts.txt Summary of celltype annotated nanoball counts
 ```
 Celltype	Cell_count
@@ -55,7 +55,7 @@ eNEU1	346492
 iNEU1	106454
 OLI	328810
 ```
-* xxx_markers.gem Gem file with nanoballs annotated by celltype
+* xxx_markers.gem (Gem file with nanoballs annotated by celltype)
 ```
 geneID	x	y	MIDCount
 eNEU1	8084	7126	1
@@ -63,7 +63,7 @@ iNEU1	10487	9614	1
 eNEU2	12988	13954	1
 iNEU1	9862	17309	1
 ```
-* xxx_neighbours.txt Nanoball neighbour counts 
+* xxx_neighbours.txt (Nanoball neighbour counts) 
 ```
 Center_celltype	Center_position	Radius	Surrounding_celltype	Cell_count
 OLI	7801_18275	100	eNEU2	1
