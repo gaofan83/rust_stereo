@@ -8,6 +8,7 @@
 1) Download the latest version from https://github.com/gaofan83/rust_stereo/releases
 ```
 wget https://github.com/gaofan83/rust_stereo/releases/download/rust_stereo_v1.0/rust_stereo
+chmod 755 rust_stereo
 ```
 
 ### USAGE
