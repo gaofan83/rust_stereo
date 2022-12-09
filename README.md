@@ -33,11 +33,8 @@ OPTIONS:
 ###Input format
 ##### GEM gene count matrix
 | geneID | x   | y   | MIDCount | ExonCount |
-| Gene1  | 121 | 200 | 2        | 1         |
-| Gene2  | 234 | 300 | 1        | 1         |
-| ...    | ... | ... | ...      | ...       |
-| GeneN  | 234 | 300 | 1.       | 1         |
 |--------|-----|-----|----------|-----------|
+
 ##### Cell marker gene list (2 column text file with each line ends with comma)
 | Gene
 #####
