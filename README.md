@@ -79,7 +79,7 @@ eNEU1	10687_14831	100	eNEU2	1
 #####
 #### 2) Download marker_genes_5XFAD.csv from this repo https://github.com/gaofan83/rust_stereo/
 ##### Note: This list of mouse brain cell-type marker genes originated from the following paper:
-##### **Human and mouse single-nucleus transcriptomics reveal TREM2-dependent and - independent cellular responses in Alzheimer’s disease, Nature Medicine 2020**
+##### [Human and mouse single-nucleus transcriptomics reveal TREM2-dependent and - independent cellular responses in Alzheimer’s disease, Nature Medicine 2020](https://www.nature.com/articles/s41591-019-0695-9/figures/1)
 #####
 #### 3) Run the following command to generate cell-type-specific image files and return statistics results
 ##### Result files can be downloaded from [Google Drive](https://drive.google.com/drive/folders/10LF7JoX_0CqqfQoR7xSZQqvL_9zIJA49?usp=sharing) 
