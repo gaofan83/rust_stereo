@@ -1,4 +1,4 @@
-[![GitHub Downloads](https://img.shields.io/github/downloads/gaofan83/rust_stereo/total)](https://github.com/gaofan83/rust_stereo/releases)
+[![GitHub Downloads](https://img.shields.io/github/downloads/gaofan83/single_cell_perturb_seq/total.svg?style=social&logo=github&label=Download)](https://github.com/gaofan83/rust_stereo/releases)
 
 
 ### rust_stereo: a data processing pipeline to generate spatial images (24000x24000 RGB format) from Stereo-seq nanoball gene matrix data
