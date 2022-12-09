@@ -1,11 +1,11 @@
 [![GitHub Downloads](https://img.shields.io/github/downloads/gaofan83/rust_stereo/total.svg?style=social&logo=github&label=Download)](https://github.com/gaofan83/rust_stereo/releases)
 
 
-### rust_stereo: a data processing pipeline to generate annotated spatial images from Stereo-seq nanoball gene matrix data
+### rust_stereo: a data processing pipeline to generate annotated spatial images from Stereo-seq nanoball(bin1) gene matrix data
 #####
 #####
 ### Installation
-1) Download the latest version from https://github.com/gaofan83/rust_stereo/releases to Ubuntu workstation
+1) Download the latest version from https://github.com/gaofan83/rust_stereo/releases to a Linux workstation
 ```
 wget https://github.com/gaofan83/rust_stereo/releases/download/rust_stereo_v1.0/rust_stereo
 chmod 755 rust_stereo
@@ -78,6 +78,8 @@ eNEU1	10687_14831	100	eNEU2	1
 ##### Note: the latest Stereo-seq gem file has a different file extension that ends in gem.gz
 #####
 #### 2) Download marker_genes_5XFAD.csv from this repo https://github.com/gaofan83/rust_stereo/
+##### Note: This list of mouse brain cell-type marker genes originated from the following paper:
+##### Human and mouse single-nucleus transcriptomics reveal TREM2-dependent and - independent cellular responses in Alzheimer’s disease, Nature Medicine 2020
 #####
 #### 3) Run the following command to generate cell-type-specific image files and return statistics results
 ##### Result files can be downloaded from [Google Drive](https://drive.google.com/drive/folders/10LF7JoX_0CqqfQoR7xSZQqvL_9zIJA49?usp=sharing) 
