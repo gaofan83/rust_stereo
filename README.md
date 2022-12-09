@@ -1,7 +1,7 @@
 [![GitHub Downloads](https://img.shields.io/github/downloads/gaofan83/rust_stereo/total.svg?style=social&logo=github&label=Download)](https://github.com/gaofan83/rust_stereo/releases)
 
 
-### rust_stereo: a data processing pipeline to generate spatial images (24000x24000 RGB format) from Stereo-seq nanoball gene matrix data
+### rust_stereo: a data processing pipeline to generate annotated spatial images from Stereo-seq nanoball gene matrix data
 #####
 #####
 ### Installation
@@ -30,7 +30,19 @@ OPTIONS:
 ######################################################################################
 ```
 
-#### Demo run
+###Input format
+* GEM gene count matrix
+| geneID | x   | y   | MIDCount | ExonCount |
+| Gene1  | 121 | 200 | 2        | 1         |
+| Gene2  | 234 | 300 | 1        | 1         |
+| ...    | ... | ... | ...      | ...       |
+| GeneN  | 234 | 300 | 1.       | 1         |
+|--------|-----|-----|----------|-----------|
+* Cell marker gene list (2 column text file with each line ends with comma)
+| Gene
+#####
+
+### Demo run
 #### 1) Download adult mouse brain Stereo-seq gem data file (445Mb size) from STOMICS Database 
 `wget https://ftp.cngb.org/pub/SciRAID/stomics/STDS0000058/Bin1_matrix/Mouse_brain_Adult_GEM_bin1.tsv.gz`
 ##### Note: the latest Stereo-seq gem file has a different file extension that ends in gem.gz
