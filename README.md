@@ -29,7 +29,7 @@ OPTIONS:
 
 ######################################################################################
 ```
-
+#####
 ### Input format
 ##### GEM gene count matrix
 | geneID | x   | y   | MIDCount | ExonCount |
@@ -49,7 +49,9 @@ Gad1,iNEU1,
 Gad2,iNEU1,
 ```
 #####
-
+### Output files
+* PNG format RGB image files
+* 
 ### Demo run
 #### 1) Download adult mouse brain Stereo-seq gem data file (445Mb size) from STOMICS Database 
 `wget https://ftp.cngb.org/pub/SciRAID/stomics/STDS0000058/Bin1_matrix/Mouse_brain_Adult_GEM_bin1.tsv.gz`
