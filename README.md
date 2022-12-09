@@ -1,8 +1,9 @@
 [![GitHub Downloads](https://img.shields.io/github/downloads/gaofan83/rust_stereo/total.svg?style=social&logo=github&label=Download)](https://github.com/gaofan83/rust_stereo/releases)
 
 
-### rust_stereo: a data processing pipeline to generate annotated spatial images from Stereo-seq nanoball(bin1) gene matrix data
+### rust_stereo: a data processing pipeline to generate cell-type annotated spatial images from Stereo-seq nanoball(bin1) gene matrix
 #####
+![Figure not found](rust_stereo.png)
 #####
 ### Installation
 1) Download the latest version from https://github.com/gaofan83/rust_stereo/releases to a Linux workstation
