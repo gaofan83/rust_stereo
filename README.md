@@ -47,7 +47,7 @@ Gad2,iNEU1,
 #####
 ### Output files
 * xxx_celltypes_CELLTYPE1_UMI_full.png (Celltype annotated nanoball RGB images)
-* xxx_cell_counts.txt Summary of celltype annotated nanoball counts
+* xxx_cell_counts.txt (Summary of celltype annotated nanoball counts)
 ```
 Celltype	Cell_count
 eNEU3	41010
