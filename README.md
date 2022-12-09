@@ -50,8 +50,12 @@ Gad2,iNEU1,
 ```
 #####
 ### Output files
-* PNG format RGB image files
-* 
+* xxx_celltypes_CELLTYPE1_UMI_full.png Celltype annotated nanoball RGB images
+* xxx_cell_counts.txt Summary of celltype annotated nanoball counts
+* xxx_markers.gem Gem file with nanoballs annotated by celltype
+* xxx_neighbours.txt Nanoball neighbour counts | geneID | x   | y   | MIDCount | ExonCount |
+|--------|-----|-----|----------|-----------|
+#####
 ### Demo run
 #### 1) Download adult mouse brain Stereo-seq gem data file (445Mb size) from STOMICS Database 
 `wget https://ftp.cngb.org/pub/SciRAID/stomics/STDS0000058/Bin1_matrix/Mouse_brain_Adult_GEM_bin1.tsv.gz`
