@@ -38,7 +38,7 @@ OPTIONS:
 #### 2) Download marker_genes_5XFAD.csv from this repo https://github.com/gaofan83/rust_stereo/
 #####
 #### 3) Run the following command to generate cell-type-specific image files and return statistics results
-##### Result files can be downloaded from [!Google Drive](https://drive.google.com/drive/folders/10LF7JoX_0CqqfQoR7xSZQqvL_9zIJA49?usp=sharing) 
+##### Result files can be downloaded from [Google Drive](https://drive.google.com/drive/folders/10LF7JoX_0CqqfQoR7xSZQqvL_9zIJA49?usp=sharing) 
 ```
 ./rust_stereo --in Mouse_brain_Adult_GEM_bin1.tsv.gz --marker marker_genes_5XFAD.csv --radius 100
 ```
