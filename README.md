@@ -35,8 +35,19 @@ OPTIONS:
 | geneID | x   | y   | MIDCount | ExonCount |
 |--------|-----|-----|----------|-----------|
 
-##### Cell marker gene list (2 column text file with each line ends with comma)
-| Gene
+##### Cell marker gene list (2 column csv file with each line ends with comma)
+```
+Gene,Celltype,
+Grin1,eNEU1,
+Syt1,eNEU1,
+Rbfox3,eNEU1,
+Snap25,eNEU1,
+Grin2a,eNEU1,
+Slc17a7,eNEU1,
+Satb2,eNEU1,
+Gad1,iNEU1,
+Gad2,iNEU1,
+```
 #####
 
 ### Demo run
